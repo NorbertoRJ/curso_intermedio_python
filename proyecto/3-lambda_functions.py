@@ -1,0 +1,3 @@
+#lambda argumentos: expresión
+palindrome = lambda string: string == string[::-1]
+print(palindrome('ana'))
